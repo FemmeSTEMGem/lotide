@@ -33,7 +33,7 @@ const eqObjects = function(object1, object2) {
       return false;
     }
   }
-  return true;localStorage
+  return true;
 };
 
 
