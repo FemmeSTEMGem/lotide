@@ -1,7 +1,7 @@
 const takeUntil = function(array, callback) {
   const map1 = array.map(callback);
   let trueLocation = map1.indexOf(true);
-  array.splice(trueLocation, array.length - 1);
+  array.splice(trueLocation, array.length);
   return array;
 };
 
